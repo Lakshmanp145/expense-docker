@@ -1,4 +1,5 @@
 FROM node:20
+FROM node:20.18.3-alpine3.21
 WORKDIR /opt/backend
 #(".") represents corrent directory
 COPY package.json . 

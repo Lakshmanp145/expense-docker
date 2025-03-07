@@ -10,4 +10,5 @@ RUN npm install
 #configuration
 ENV DB_HOST="mysql"
 #ENV DB_HOST="localhost" 
+USER expense
 CMD ["node", "index.js"]
